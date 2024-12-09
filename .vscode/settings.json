@@ -1,0 +1,29 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "editor.formatOnSave": true,
+  "explorer.sortOrder": "type",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll.eslint": "explicit"
+  },
+  // file nesting
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": ".nvmrc, .npm*, bun.lockb",
+    "*.js": "",
+    "*.ts": "",
+    "*.tsx": ""
+  },
+  // tailwind support for cva and classNames
+  "tailwindCSS.classAttributes": ["style", "\\w+Style"],
+  "tailwindCSS.experimental.classRegex": [
+    "tw`([^`]*)`",
+    ["tw.style(([^)]*))", "'([^']*)'"],
+    ["cva(([^)]*))", "[\"'`]([^\"'`]*).*?[\"'`]"]
+  ],
+  // prettier-ignore
+  "cSpell.words": [
+    "envalid","hookform","inter","rehype","tailwindcss","webp","zod","qrcode",
+  ]
+}
