@@ -43,17 +43,16 @@ const config: ExpoConfig = {
   },
   // android config
   android: {
+    package: APP.package,
     icon: './assets/app/icon.ios.png',
     adaptiveIcon: {
       foregroundImage: './assets/app/icon.and.png',
       backgroundColor: '#09090b',
     },
   },
-
   plugins: Object.entries(expoPluginsObject).map(([pkg, options]) => {
     return typeof options === 'boolean' && options ? pkg : [pkg, options];
   }),
-
   experiments: {
     typedRoutes: true,
     reactCanary: true,
