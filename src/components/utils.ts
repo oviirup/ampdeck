@@ -1,8 +1,9 @@
 import { isFunction, isObject } from '@/lib/assertions';
 import { create } from 'twrnc';
+import twConfig from '../../tailwind.config';
 
 /** Tailwind styles */
-export const tw = create(require('../../tailwind.config'));
+export const tw = create(twConfig);
 
 type PossibleRef<El> = React.ForwardedRef<El> | undefined;
 /** Use multiple refs on a single element */

@@ -10,6 +10,9 @@ const APP = {
 
 const expoPluginsObject = {
   'expo-router': true,
+  'expo-font': {
+    fonts: ['./assets/fonts/inter.ttf', './assets/fonts/roboto.ttf'],
+  },
   'expo-splash-screen': {
     image: './assets/app/splash.png',
     imageWidth: 1200,

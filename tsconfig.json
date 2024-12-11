@@ -7,5 +7,6 @@
       "@/assets/*": ["./assets/*"]
     }
   },
-  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"]
+  "include": ["src/**/*.ts", "src/**/*.js", "src/**/*.tsx", ".expo/types/**/*.ts", "expo-env.d.ts"],
+  "exclude": ["node_modules"]
 }

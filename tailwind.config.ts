@@ -1,21 +1,13 @@
-const createPlugin = require('tailwindcss/plugin');
+import { TwConfig } from 'twrnc';
 
-const utilities = createPlugin(({ addUtilities }) => {
-  addUtilities({
-    '.flex-center': {
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
-});
-
-/** @type {import('twrnc').TwConfig} */
-module.exports = {
+const config: TwConfig = {
   theme: {
     extend: {
       zIndex: Array.from('123456789').reduce((acc, e) => Object.assign(acc, { [e]: e }), {}),
-      fontFamily: { inter: 'Inter' },
+      fontFamily: { inter: 'inter', roboto: 'roboto' },
     },
   },
-  plugins: [utilities],
+  plugins: [],
 };
+
+export default config;
