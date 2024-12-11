@@ -71,7 +71,7 @@ Fork the repo from GitHub by clicking the fork button at the top-right.
 Clone it...
 
 ```bash
-git clone https://github.com/oviirup/melancholy.git
+git clone https://github.com/oviirup/ampdeck.git
 ```
 
 ### Create a new branch

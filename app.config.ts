@@ -2,9 +2,9 @@ import { ExpoConfig } from 'expo/config';
 import { version } from './package.json';
 
 const APP = {
-  name: 'Melancholy',
-  id: 'melancholy',
-  package: 'com.oviirup.melancholy',
+  name: 'AmpDeck',
+  id: 'ampdeck',
+  package: 'com.oviirup.ampdeck',
   version: version,
 };
 

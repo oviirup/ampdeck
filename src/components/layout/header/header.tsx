@@ -10,7 +10,7 @@ function Header() {
   const insets = useSafeAreaInsets();
   return (
     <View
-      style={tw.style(`flex-row items-center border-b border-zinc-800 bg-background px-6`, {
+      style={tw.style(`flex-row items-center border-b border-zinc-800 bg-background px-4`, {
         height: HEADER_HEIGHT,
         paddingTop: insets.top,
       })}>
@@ -20,7 +20,7 @@ function Header() {
           style={tw.style(`font-roboto text-base font-bold tracking-tight text-foreground`, {
             transform: `scaleY(1.1)`,
           })}>
-          Melancholy
+          AmpDeck
         </Text>
       </View>
       <View style={tw`ml-auto flex-row gap-1`}>

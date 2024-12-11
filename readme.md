@@ -1,4 +1,4 @@
-# Project Melancholy ![](https://img.shields.io/badge/WIP-gold)
+# Project AmpDeck ![](https://img.shields.io/badge/WIP-gold)
 
 A beautiful player for youtube music built with react-native.
 
